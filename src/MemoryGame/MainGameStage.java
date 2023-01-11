@@ -187,12 +187,10 @@ public class MainGameStage extends javax.swing.JPanel {
 
         setName("backgroundPanel"); // NOI18N
         setPreferredSize(new java.awt.Dimension(400, 458));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         moveLabel.setFont(new java.awt.Font("Impact", 0, 24)); // NOI18N
         moveLabel.setForeground(new java.awt.Color(255, 255, 255));
         moveLabel.setText("Moves: 0");
-        add(moveLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 400, -1, -1));
 
         gameArea.setName("gameArea"); // NOI18N
         gameArea.addComponentListener(new java.awt.event.ComponentAdapter() {
@@ -205,18 +203,34 @@ public class MainGameStage extends javax.swing.JPanel {
         gameArea.setLayout(gameAreaLayout);
         gameAreaLayout.setHorizontalGroup(
             gameAreaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 360, Short.MAX_VALUE)
+            .addGap(0, 1961, Short.MAX_VALUE)
         );
         gameAreaLayout.setVerticalGroup(
             gameAreaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 360, Short.MAX_VALUE)
         );
 
-        add(gameArea, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 360, 360));
-
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MemoryGame/natalia-rajs-background.jpg"))); // NOI18N
         jLabel1.setText("jLabel1");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
+        this.setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(gameArea, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(moveLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 1961, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jLabel1)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(gameArea, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(moveLabel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(31, 31, 31)
+                .addComponent(jLabel1))
+        );
     }// </editor-fold>//GEN-END:initComponents
 
     private void gameAreaShown(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_gameAreaShown

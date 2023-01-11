@@ -3,10 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Users/floyd/Documents/NetBeansProjects/Surname08/src/surname08/GameOverStage.java</file>
-            <file>file:/D:/Users/floyd/Documents/NetBeansProjects/Surname08/src/surname08/MemoryGame.java</file>
-            <file>file:/D:/Users/floyd/Documents/NetBeansProjects/Surname08/src/surname08/Card.java</file>
-            <file>file:/D:/Users/floyd/Documents/NetBeansProjects/Surname08/src/surname08/MainGameStage.java</file>
+            <file>file:/D:/Users/floyd/Documents/NetBeansProjects/Surname08/src/MemoryGame/MainGameStage.java</file>
+            <file>file:/D:/Users/floyd/Documents/NetBeansProjects/Surname08/src/MemoryGame/GameOverStage.java</file>
+            <file>file:/D:/Users/floyd/Documents/NetBeansProjects/Surname08/src/MemoryGame/Hidden.png</file>
+            <file>file:/D:/Users/floyd/Documents/NetBeansProjects/Surname08/src/MemoryGame/Card.java</file>
+            <file>file:/D:/Users/floyd/Documents/NetBeansProjects/Surname08/src/MemoryGame/MemoryGame.java</file>
         </group>
     </open-files>
 </project-private>
